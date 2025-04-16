@@ -1,3 +1,4 @@
+// importo express
 const express = require('express');
 
 // inizializzazione di express nella varibaile app
@@ -16,6 +17,7 @@ app.get('/', (req, res) => {
 
 // definizione della rotta bacheca
 app.get('/bacheca', (req, res) => {
+    // creo l'array di oggetti
     const teams = [
         {
             titolo: "Juventus",
@@ -59,7 +61,7 @@ app.get('/bacheca', (req, res) => {
             immagine: "imgs/milan.jpeg",
             tags: ["Serie A", "Calcio", "Milano"]
         },
-    ]
+    ];
     res.json(teams);
 })
 
