@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 })
 
 // definizione della rotta bacheca
-app.get('/', (req, res) => {
+app.get('/bacheca', (req, res) => {
     const teams = [
         {
             titolo: "Juventus",
@@ -60,6 +60,7 @@ app.get('/', (req, res) => {
             tags: ["Serie A", "Calcio", "Milano"]
         },
     ]
+    res.json(teams);
 })
 
 app.listen(port, () => {
