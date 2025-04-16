@@ -20,7 +20,7 @@ app.get('/bacheca', (req, res) => {
         {
             titolo: "Juventus",
             contenuto: "Giocatori",
-            immagine: "imgs/1484661620_q.webp",
+            immagine: "imgs/juvecialda9218.png",
             tags: ["Serie A", "Calcio", "Torino"]
         },
         {
@@ -32,7 +32,7 @@ app.get('/bacheca', (req, res) => {
         {
             titolo: "Bologna",
             contenuto: "Giocatori",
-            immagine: "imgs/bologna.webp",
+            immagine: "imgs/Bologna.png",
             tags: ["Serie A", "Calcio", "Bologna"]
         },
         {
@@ -50,13 +50,13 @@ app.get('/bacheca', (req, res) => {
         {
             titolo: "Inter",
             contenuto: "Giocatori",
-            immagine: "imgs/inter.webp",
+            immagine: "imgs/inter.png",
             tags: ["Serie A", "Calcio", "Milano"]
         },
         {
             titolo: "milan",
             contenuto: "Giocatori",
-            immagine: "imgs/milan.webp",
+            immagine: "imgs/milan.jpeg",
             tags: ["Serie A", "Calcio", "Milano"]
         },
     ]
